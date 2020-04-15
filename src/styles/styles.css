@@ -1,0 +1,27 @@
+@import "roboto.css";
+@import "~normalize.css";
+
+body {
+    font-family: 'Roboto Light', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    color: darkolivegreen;
+    font-weight: bold;
+    width: 80%
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.logo {
+    background-image: url("../assets/logo-webpack.png");
+    background-size: cover;
+    height: 250px;
+    width: 440px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: 3px solid lightseagreen;
+}
